@@ -1,5 +1,6 @@
 * {
   color: #001e1d;
+  box-sizing: border-box;
 }
 
 body {
@@ -14,6 +15,8 @@ body {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 #weather-info {
@@ -26,14 +29,18 @@ button {
   color: #001e1d;
   border-radius: 10px;
   cursor: pointer;
+  border: none;
+  margin-top: 10px;
+  width: 100%;
 }
 
 input {
   padding: 10px;
   border-radius: 10px;
+  width: 100%;
+  border: none;
 }
 
-/* Media queries for mobile view */
 @media (max-width: 600px) {
   body {
     padding: 50px 20px;
