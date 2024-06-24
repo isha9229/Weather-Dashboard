@@ -27,7 +27,29 @@ button {
   border-radius: 10px;
   cursor: pointer;
 }
- input {
+
+input {
   padding: 10px;
   border-radius: 10px;
- }
+}
+
+/* Media queries for mobile view */
+@media (max-width: 600px) {
+  body {
+    padding: 50px 20px;
+  }
+
+  #weather-dashboard {
+    padding: 15px;
+  }
+
+  button, input {
+    padding: 8px;
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  #weather-info {
+    font-size: 14px;
+  }
+}
